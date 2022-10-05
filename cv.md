@@ -40,6 +40,19 @@ I'm an innovative front-end web and mobile developer motivated to learn, grow, a
 ## My Latest Code
 I recently worked on three (3) JavaScript Projects. Click on each project name to check them out
 
+*[Meme Picker](https://github.com/Omolara5861/meme-picker)  is an app that will give you a cat themed meme that matches the mood selected from the list of emotions on the page.*
+
+![Meme Picker](/assets/images/meme_picker.png)
+
+*[World Annoying Cookie Consent](https://github.com/Omolara5861/cookie-consent) project, is an annoying site that forces the users to accept the site cookies. When a user attempts to decline the cookies, the decline button is swapped with the accept button, hence making it impossible for the user to decline the cookies.*
+
+![World Annoying Cookie Consent](/assets/images/cookies_consent.png)
+
+
+*[Twimba](https://github.com/Omolara5861/twimba) is a twitter clone that mimicks some of the functionalies of twiter like tweeting, rendering of tweets, liking and retweeting tweets e.t.c*
+
+![Twimba](/assets/images/twimba.png)
+
 ## Experience 
 `April 2021 - Present`
 __Coding Instructor - Part Time__
