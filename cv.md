@@ -78,4 +78,4 @@ __Google Africa Developer Scholarship - GADS__
     Mobile Web Development Specialist
 
 ## Languages Spoken
-
+I speak English fluently because it's my country's official language. I also speak basic German, learnt it through an app called [Busuu](https://www.busuu.com/en/mobile)
