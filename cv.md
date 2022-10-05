@@ -59,7 +59,23 @@ Shipthis, Bengaluru, Karnataka, India (Remote)
 - Worked closely with backend developers and designers to develop well-designed, testable, efficient code by using the best software development practices.
 - Demonstrated hands-on development of websites, which includes developing web pages based on wireframes and visual designs.
 - Created, enhanced, and ran automated test cases
+  
 ## Education
+
+`September 2022 - Present`
+__The Rolling Scopes School__
+
+    JavaScript/Front-end Course
+
+`January 2022 - June 2022`
+__Google Africa Developer Scholarship - GADS__
+
+     The Frontend Developer Career Path
+
+`July 2021 - January 2022`
+__Google Africa Developer Scholarship - GADS__
+
+    Mobile Web Development Specialist
 
 ## Languages Spoken
 
