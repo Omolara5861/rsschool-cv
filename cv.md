@@ -14,7 +14,29 @@ I'm an innovative front-end web and mobile developer motivated to learn, grow, a
 <a href="https://www.discord.com/users/763342737520197673" target="blank" title="discord"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="omolara-ad" height="30" width="40" /></a>
 
 ## My Skillet
-
+### Programming Skills
+- HTML5 and CSS3
+- Tailwind CSS
+- JavaScript
+- TypeScript
+- Angular
+- React
+- MongoDB
+- Express JS
+- Node JS
+- Ionic Framework
+- Version Control
+### Soft Skills
+- Teamwork
+- Communication
+- Problem Solving
+- Critical Thinking
+- Self-learning
+- Accountability
+- Adaptability
+- Time Management
+- Emotional Intelligence
+  
 ## My Latest Code
 
 ## Experience 
