@@ -38,6 +38,7 @@ I'm an innovative front-end web and mobile developer motivated to learn, grow, a
 - Emotional Intelligence
   
 ## My Latest Code
+I recently worked on three (3) JavaScript Projects. Click on each project name to find out more info about them
 
 ## Experience 
 `April 2021 - Present`
