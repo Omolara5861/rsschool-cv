@@ -40,7 +40,25 @@ I'm an innovative front-end web and mobile developer motivated to learn, grow, a
 ## My Latest Code
 
 ## Experience 
+`April 2021 - Present`
+__Coding Instructor - Part Time__
 
+TheoWorld IT Services (TWITS), Lagos Nigeria (Hybrid)
+
+- I carefully develop and implement training materials for new and existing coders weekly and present virtual training classes via Zoom/Google Meet video Conference.
+- Keep track of students' progress to determine the overall success of the learning program. I evaluate and revise lesson plans and course content to achieve student-centered learning.
+- I provide useful resources, texts, links, visual aids, and other materials to aid learning and apply various teaching aids to minimize learning gaps and instruct and motivate students.
+- Use learning assessments to regularly monitor student understanding of class concepts and materials. I place a high value on punctuality and work hard to maintain an excellent attendance record.
+- Earned positive feedback from parents regarding classroom instruction and student learning success.
+  
+`April 2022 - September 2022`
+__Frontend Developer Intern__
+
+Shipthis, Bengaluru, Karnataka, India (Remote)
+
+- Worked closely with backend developers and designers to develop well-designed, testable, efficient code by using the best software development practices.
+- Demonstrated hands-on development of websites, which includes developing web pages based on wireframes and visual designs.
+- Created, enhanced, and ran automated test cases
 ## Education
 
 ## Languages Spoken
