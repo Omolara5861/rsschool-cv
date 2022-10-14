@@ -126,6 +126,16 @@ a:hover {
     text-align: center;
 }
 
+.wrapper .sidebar h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: #141414;
+
+}
+
 .wrapper .sidebar img {
     width: 100%;
     max-width: 100%;
