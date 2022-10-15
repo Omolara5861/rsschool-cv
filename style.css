@@ -54,6 +54,7 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    font-family: "Averia Serif Libre", cursive;
 }
 
 p {
@@ -100,6 +101,27 @@ a:hover {
     margin-top: 0.5rem;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-12,
+.col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 /********** Layout Style **********/
 
 /* CV Sidebar Styles */
@@ -141,6 +163,8 @@ a:hover {
     max-width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .wrapper .sidebar h2 {
@@ -176,4 +200,71 @@ a:hover {
 
 .wrapper .sidebar .contact .border-right {
     border-right: 1px solid #dee2e6 !important;
+}
+
+/** Main Section Style **/
+.wrapper .content {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    float: left;
+    background: #F2F2F2;
+}
+
+.wrapper .sidebar,
+.wrapper .content {
+    transition: margin 200ms ease-out;
+}
+
+/* About Me */
+
+.content .about-me {
+    width: 100%;
+    padding: 3rem 0.9rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.content .about-me .about-content {
+    padding: 0 1rem;
+}
+
+.content .about-me h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #141414;
+}
+
+.content .about-me .title {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content .about-me .title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #78CC6D;
+}
+
+.content .about-me .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+}
+
+.content .about-me h5 {
+    display: inline;
+    color: #78CC6D;
+    padding: 0.25rem 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.content .about-me a {
+    color: #646464;
 }
