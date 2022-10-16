@@ -151,6 +151,31 @@
             </div>
         </section>
         <!-- Education Section Ends Here -->
+
+        <!-- Code Example Section Starts Here -->
+        <section class="container code-example">
+            <div>
+                <h2>Code Example</h2>
+                <p>This typescript code example fetches a todo list from an API and emits it to be displayed by the parent Todos Component</p>
+                <pre>
+                <code>
+                    loadTodos() {
+                        this.todosService.getTodos()
+                            .subscribe(
+                            (res: Todo[]) => {
+                                this.todoList = res;
+                                this.btnState$.next(BtnState.loadedAndDelaying);
+                            },
+                            (err) => {
+                                this.btnState$.next(BtnState.error);
+                            });
+                        }
+                </code>
+            </pre>
+            </div>
+        </section>
+        <!-- Code Example Section Ends Here -->
+        
     </main>
     <!-- CV Footer -->
     <footer></footer>

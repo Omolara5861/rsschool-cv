@@ -313,3 +313,30 @@ a:hover {
 .content .education-content {
     padding: 0 1rem;
 }
+
+/* Styles For Code Example Section*/
+.content .code-example {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content .code-example div {
+    background-color: #78CC6D;
+    padding: 3rem;
+    color: #fff;
+}
+
+.content .code-example h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .code-example p {
+    text-align: center;
+}
+
+.content .code-example pre {
+    color: #fff;
+    background-color: #141414;
+    border-color: #141414;
+}
