@@ -499,7 +499,8 @@ footer .container {
     overflow: hidden;
 }
 
-footer .container div {
+footer .container div,
+footer .container ul {
     display: flex;
     justify-content: center;
 }
@@ -517,7 +518,6 @@ footer .container .socials a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0.5rem;
 }
 
 footer .container .socials a:hover {
@@ -532,8 +532,12 @@ footer .container .socials a.focus {
     box-shadow: 0 0 0 0.2rem rgba(120, 204, 109, 0.5);
 }
 
+footer .container .socials ul li {
+    margin-right: 0.5rem;
 
-footer .container .socials a:last-child {
+}
+
+footer .container .socials ul li:last-child {
     margin-right: 0;
 }
 
