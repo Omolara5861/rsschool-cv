@@ -461,6 +461,7 @@ a:hover {
     transition: .3s;
     transition-delay: .3s;
     color: #fff;
+    margin-right: 10px;
 }
 
 .project-item:hover i {
