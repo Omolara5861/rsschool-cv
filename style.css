@@ -478,7 +478,7 @@ footer .container .terms a{
 }
 
 footer .container .terms img{
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(0.8);
 }
 
 footer .container .terms span{
