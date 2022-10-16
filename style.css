@@ -398,3 +398,12 @@ a:hover {
 .project-item:hover i {
     opacity: 1;
 }
+
+/* Styles For Language section */
+.content .language-content h5 {
+    display: inline;
+    color: #78CC6D;
+    padding: 0.25rem 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
