@@ -196,12 +196,17 @@ a:hover {
 }
 
 .wrapper .sidebar img {
-    width: 100%;
-    max-width: 100%;
+    /* max-width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
     vertical-align: middle;
+    border-style: none; */
+    max-width: 100%;
+    /* height: auto; */
+    margin-bottom: 1.5rem;
+    vertical-align: middle;
     border-style: none;
+    border-radius: 50%;
 }
 
 .wrapper .sidebar h2 {
