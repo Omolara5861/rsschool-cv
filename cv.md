@@ -82,7 +82,7 @@ __The Rolling Scopes School__
     JavaScript/Front-end Course
 
 `January 2022 - June 2022`
-__Google Africa Developer Scholarship - GADS__
+__Scrimba__
 
      The Frontend Developer Career Path
 
