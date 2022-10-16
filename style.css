@@ -57,6 +57,12 @@ h6 {
     font-family: "Averia Serif Libre", cursive;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #141414;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -120,6 +126,29 @@ a:hover {
 .col-12 {
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 3rem 0.9rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.title {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #78CC6D;
 }
 
 /********** Layout Style **********/
@@ -216,39 +245,9 @@ a:hover {
     transition: margin 200ms ease-out;
 }
 
-/* About Me */
-
-.content .about-me {
-    width: 100%;
-    padding: 3rem 0.9rem;
-    margin: 0 auto;
-    background-color: #ffffff;
-}
-
+/* Styles For About Me Section*/
 .content .about-me .about-content {
     padding: 0 1rem;
-}
-
-.content .about-me h2 {
-    font-weight: 700;
-    font-size: 2rem;
-    color: #141414;
-}
-
-.content .about-me .title {
-    position: relative;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.content .about-me .title::after {
-    position: absolute;
-    content: "";
-    width: 60px;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background: #78CC6D;
 }
 
 .content .about-me .col-sm-6 {
@@ -268,3 +267,4 @@ a:hover {
 .content .about-me a {
     color: #646464;
 }
+
