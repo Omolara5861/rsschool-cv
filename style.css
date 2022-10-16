@@ -268,6 +268,43 @@ a:hover {
     color: #646464;
 }
 
+/* Styles For Skills Section*/
 .content .skills-content {
     padding: 0 1rem;
+}
+
+/* Styles For Experience Section*/
+.content .experience-content {
+    padding: 0 1rem;
+}
+
+.content .experience-content .experience-container{
+    border-left: 1px solid #dee2e6;
+    border-color: #78CC6D;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.content .experience-content .experience-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.content .experience-content .experience-item i{
+    position: absolute;
+    top: 3px;
+    left: -24px;
+    color: #78CC6D;
+}
+
+.content .experience-content .job-title {
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #141414;
+}
+
+.content .experience-content .company {
+    margin-bottom: 0.5rem;
 }
