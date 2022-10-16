@@ -308,3 +308,8 @@ a:hover {
 .content .experience-content .company {
     margin-bottom: 0.5rem;
 }
+
+/* Styles For Education Section*/
+.content .education-content {
+    padding: 0 1rem;
+}
