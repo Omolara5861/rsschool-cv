@@ -10,6 +10,7 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
 }
 
 article,
@@ -329,6 +330,63 @@ a:hover {
 .content .education-content {
     padding: 0 1rem;
 }
+
+.content .education-container {
+    width: 33.3%;
+}
+
+.content .education-content .education-item {
+    border-left: 2px solid #dee2e6;
+    border-color: #78CC6D;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    margin-left: 0.5rem;
+    height: 120px;
+}
+
+.content .education-content .icon-container {
+    text-align: center;
+    margin-left: -10px;
+}
+
+.content .education-content .outer-container {
+    display: flex;
+    align-items: center;
+}
+
+.content .education-content .outer-container span{
+    margin-left: 10px;
+    /* border: 1px solid #78CC6D;
+    padding: 4px 8px;
+    border-radius: 5px; */
+}
+
+.content .education-content .icon-container i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+    transition: .5s;
+    background: #78CC6D;
+    color: #FFFFFF;
+}
+
+.content .education-content .icon-container:hover i {
+    background: #FFFFFF;
+    border: 2px solid #78CC6D;
+    color: #78CC6D;
+}
+
+.content .education-content h5 {
+    display: inline;
+    color: #141414;
+    padding: 0.25rem 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
 
 /* Styles For Code Example Section*/
 .content .code-example {
