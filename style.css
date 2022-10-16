@@ -116,11 +116,18 @@ a:hover {
 
 
 .col-12,
+.col-md-6,
 .col-sm-6 {
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.col-md-6,
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .col-12 {
@@ -278,7 +285,7 @@ a:hover {
     padding: 0 1rem;
 }
 
-.content .experience-content .experience-container{
+.content .experience-content .experience-container {
     border-left: 1px solid #dee2e6;
     border-color: #78CC6D;
     padding-top: 0.5rem;
@@ -291,7 +298,7 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
-.content .experience-content .experience-item i{
+.content .experience-content .experience-item i {
     position: absolute;
     top: 3px;
     left: -24px;
@@ -339,4 +346,55 @@ a:hover {
     color: #fff;
     background-color: #141414;
     border-color: #141414;
+}
+
+/* Styles For Project Section */
+.project-item {
+    margin-bottom: 1.5rem;
+}
+
+.project-item .project-item-content {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.project-item .project-item-content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.project-item .project-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #141414;
+    opacity: 0;
+    transition: .5s;
+}
+
+.project-item:hover .project-btn {
+    opacity: 1;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    top: 30px;
+    left: 30px;
+}
+
+.project-item i {
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .3s;
+    color: #fff;
+}
+
+.project-item:hover i {
+    opacity: 1;
 }
