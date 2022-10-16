@@ -281,12 +281,12 @@ a:hover {
     padding: 0 1rem;
 }
 
-.content .skills-content h3{
+.content .skills-content h3 {
     font-weight: 700;
     color: #141414;
 }
 
-.content .skills-content img{
+.content .skills-content img {
     width: 50px;
 }
 
@@ -354,14 +354,14 @@ a:hover {
     align-items: center;
 }
 
-.content .education-content .outer-container span{
+.content .education-content .outer-container span {
     margin-left: 10px;
     /* border: 1px solid #78CC6D;
     padding: 4px 8px;
     border-radius: 5px; */
 }
 
-.content .education-content .icon-container i{
+.content .education-content .icon-container i {
     width: 40px;
     height: 40px;
     display: flex;
@@ -540,18 +540,55 @@ footer .container .socials a:last-child {
 footer .container .terms {
     margin-bottom: 1rem;
 }
-footer .container .terms a{
+
+footer .container .terms a {
     color: #fff;
 }
 
-footer .container .terms img{
+footer .container .terms img {
     filter: brightness(0) invert(0.8);
 }
 
-footer .container .terms span{
-padding: 0 1rem;
+footer .container .terms span {
+    padding: 0 1rem;
 }
 
 footer .container .copyright {
     margin: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1;
+    font-size: 30px;
+    right: 30px;
+    bottom: 30px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top i {
+    color: #78CC6D;
+}
+
+.back-to-top i:hover {
+    color: #141414;
+}
+
+.back-to-top {
+    animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
 }
