@@ -218,14 +218,10 @@ a:hover {
     height: 22px;
 }
 
-.wrapper .sidebar .typed-text {
-    display: none;
-}
-
 .wrapper .sidebar .socials {
     display: flex;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -233,14 +229,14 @@ a:hover {
     margin: 0 0.5rem;
 }
 
-.wrapper .sidebar .contact {
+.wrapper .sidebar .cta {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 
 }
 
-.wrapper .sidebar .contact .border-right {
+.wrapper .sidebar .cta .border-right {
     border-right: 1px solid #dee2e6 !important;
 }
 
