@@ -280,6 +280,15 @@ a:hover {
     padding: 0 1rem;
 }
 
+.content .skills-content h3{
+    font-weight: 700;
+    color: #141414;
+}
+
+.content .skills-content img{
+    width: 50px;
+}
+
 /* Styles For Experience Section*/
 .content .experience-content {
     padding: 0 1rem;
