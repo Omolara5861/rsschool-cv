@@ -407,3 +407,84 @@ a:hover {
     font-weight: 400;
     font-size: 1.25rem;
 }
+
+/* Styles CV Footer */
+footer {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    padding-top: 3rem;
+}
+
+footer .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #141414;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3rem 0;
+    overflow: hidden;
+}
+
+footer .container div {
+    display: flex;
+    justify-content: center;
+}
+
+footer .container .socials {
+    margin-bottom: 1.5rem;
+}
+
+footer .container .socials a {
+    color: #78CC6D;
+    border-color: #78CC6D;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+footer .container .socials a:hover {
+    color: #212529;
+    background-color: #78CC6D;
+    border-color: #78CC6D;
+    text-decoration: none;
+}
+
+footer .container .socials a:focus,
+footer .container .socials a.focus {
+    box-shadow: 0 0 0 0.2rem rgba(120, 204, 109, 0.5);
+}
+
+
+footer .container .socials a:last-child {
+    margin-right: 0;
+}
+
+footer .container .terms {
+    margin-bottom: 1rem;
+}
+footer .container .terms a{
+    color: #fff;
+}
+
+footer .container .terms img{
+    filter: brightness(0) invert(1);
+}
+
+footer .container .terms span{
+padding: 0 1rem;
+}
+
+footer .container .copyright {
+    margin: 0;
+}
