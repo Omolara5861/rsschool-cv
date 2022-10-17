@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Customized Stylesheet -->
     <link href="style.css" rel="stylesheet">
+    <!--  Highlight JS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Omolara Adebowale's Digital CV</title>
 </head>
 <body>
@@ -349,11 +351,9 @@
                 <code>
                     loadTodos() {
                         this.todosService.getTodos()
-                            .subscribe(
-                            (res: Todo[]) => {
+                            .subscribe((res: Todo[]) => {
                                 this.todoList = res;
-                                this.btnState$.next(BtnState.loadedAndDelaying);
-                            },
+                                this.btnState$.next(BtnState.loadedAndDelaying)},
                             (err) => {
                                 this.btnState$.next(BtnState.error);
                             });
@@ -455,5 +455,9 @@
 </div>
 <!-- Back to Top -->
 <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!--  Highlight JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 </html>
