@@ -327,9 +327,23 @@ a:hover {
     color: #646464;
 }
 
+#contact {
+    padding: 1.5rem 0;
+}
+
+.contacts ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
 /* Styles For Skills Section*/
 .content .skills-content {
     padding: 0 1rem;
+}
+
+.content .skills-content ul{
+    margin-bottom: 10px;
 }
 
 .content .skills-content h3 {
@@ -510,6 +524,9 @@ a:hover {
 }
 
 /* Styles CV Footer */
+#footer {
+    padding: 3rem 0 0;
+}
 footer .footer-div {
     background-color: #141414;
     color: #f2f2f2;
