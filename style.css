@@ -200,18 +200,18 @@ a:hover {
 }
 
 .wrapper .sidebar img {
-    /* max-width: 100%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
     vertical-align: middle;
-    border-style: none; */
-    max-width: 100%;
+    border-style: none;
+    /* max-width: 100%; */
     /* height: auto; */
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem;
     vertical-align: middle;
     border-style: none;
-    border-radius: 50%;
-}
+    border-radius: 50%; */
+} 
 
 .wrapper .sidebar h2 {
     margin-top: 0.5rem;
@@ -222,10 +222,14 @@ a:hover {
     height: 22px;
 }
 
+.wrapper .sidebar .typed-text h3 {
+    display: inline-block;
+}
+
 .wrapper .sidebar .socials {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: auto;
     margin-bottom: 1rem;
 }
 
@@ -482,7 +486,6 @@ footer .footer-div{
     color: #f2f2f2;
     text-align: center;
     padding: 3rem 0;
-    overflow: hidden;
 }
 
 footer .container div,
