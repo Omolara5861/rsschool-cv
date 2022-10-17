@@ -278,12 +278,6 @@ a:hover {
     padding: 0 1rem;
 }
 
-.content .about-me .col-sm-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-
-}
-
 .content .about-me h5 {
     display: inline;
     color: #78CC6D;
@@ -641,21 +635,14 @@ a:hover {
 
 /* Styles CV Footer */
 footer {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #fff;
-    padding-top: 3rem;
+        padding-top: 3rem;
+        padding-left: 0;
+        padding-right: 0 !important;
+        background-color: #fff !important;
+
 }
 
-footer .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+footer .footer-div{
     background-color: #141414;
     color: #f2f2f2;
     text-align: center;
@@ -723,42 +710,6 @@ footer .container .terms span {
 
 footer .container .copyright {
     margin: 0;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 1;
-    font-size: 30px;
-    right: 30px;
-    bottom: 30px;
-    transition: background 0.5s;
-    z-index: 11;
-}
-
-.back-to-top i {
-    color: #78CC6D;
-}
-
-.back-to-top i:hover {
-    color: #141414;
-}
-
-.back-to-top {
-    animation: action 1s infinite alternate;
-}
-
-@keyframes action {
-    0% {
-        transform: translateY(0);
-    }
-
-    100% {
-        transform: translateY(-15px);
-    }
 }
 
 /* Media Queries for CV Responsiveness */
@@ -830,6 +781,11 @@ footer .container .copyright {
         outline: 1px solid slategrey;
         border-radius: 7px;
     }
+
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -875,32 +831,33 @@ footer .container .copyright {
 
 @media (min-width: 576px) {
 
-    .container,
-    .container-fluid {
+    .container{
         max-width: 540px;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
 @media (min-width: 768px) {
 
-    .container,
-    .container-fluid {
+    .container {
         max-width: 720px;
     }
 }
 
 @media (min-width: 992px) {
 
-    .container,
-    .container-fluid {
+    .container {
         max-width: 960px;
     }
 }
 
 @media (min-width: 1200px) {
 
-    .container,
-    .container-fluid{
+    .container{
         max-width: 1140px;
     }
 }
