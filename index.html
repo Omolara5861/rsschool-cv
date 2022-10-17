@@ -243,10 +243,10 @@
                 <code>
                     loadTodos() {
                         this.todosService.getTodos()
-                            .subscribe((res: Todo[]) => {
+                            .subscribe((res: Todo[]) =&gt; {
                                 this.todoList = res;
                                 this.btnState$.next(BtnState.loadedAndDelaying)},
-                            (err) => {
+                            (err) =&gt; {
                                 this.btnState$.next(BtnState.error);
                             });
                         }
