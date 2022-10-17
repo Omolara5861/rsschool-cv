@@ -240,6 +240,18 @@ a:hover {
     border-right: 1px solid #dee2e6 !important;
 }
 
+.wrapper .sidebar .sidebar-icon {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: right;
+}
+
+.wrapper .sidebar .sidebar-icon i {
+    color: #78CC6D;
+}
+
 /** Main Section Style **/
 .wrapper .content {
     position: relative;
