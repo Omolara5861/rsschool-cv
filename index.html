@@ -260,18 +260,18 @@
                 <h2>Code Example</h2>
                 <p>This typescript code example fetches a todo list from an API and emits it to be displayed by the parent Todos Component</p>
                 <pre>
-                <code>
-                    loadTodos() {
-                        this.todosService.getTodos()
-                            .subscribe((res: Todo[]) =&gt; {
-                                this.todoList = res;
-                                this.btnState$.next(Bt
-                                nState.loadedAndDelaying)},
-                            (err) =&gt; {
-                                this.btnState$.next(BtnState.error);
-                            });
-                        }
-                </code>
+<code>
+loadTodos() {
+    this.todosService.getTodos()
+        .subscribe((res: Todo[]) =&gt; {
+            this.todoList = res;
+            this.btnState$.next(Bt
+            BtnState.loadedAndDelaying)},
+        (err) =&gt; {
+            this.btnState$.next(BtnState.error);
+        });
+    }
+</code>
             </pre>
             </div>
         </section>
