@@ -273,29 +273,42 @@ a:hover {
 }
 
 /* styles For Navbar */
-.sticky {
-    position: -webkit-sticky;
+
+
+#header {
+    background-color: #141414;
+    width: 100%;
+    padding: 25px;
+}
+
+#navbar {
     position: sticky;
     top: 0;
 }
 
-#navbar {
-    background-color: #141414;
-    overflow: auto;
-    white-space: nowrap;
-    width: 100%;
-    padding: 10px;
+#header .navbar-links {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-#navbar .nav-item {
-    display: inline-block;
-    color: #fff;
-    padding: 14px;
-    text-decoration: none;
-}
-
-#navbar .nav-item:hover {
-    color: #78CC6D;
+#header .navbar-links li{
+        margin-right: 10px;
+        
+    }
+    
+    #navbar .nav-item {
+        color: #78CC6D;
+        display: inline-block;
+        padding: 14px;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    #navbar .nav-item:hover {
+    color: #F2F2F2;
 }
 
 /* Styles For About Me Section*/
@@ -441,14 +454,10 @@ a:hover {
 }
 
 /* Styles For Project Section */
-.project-item {
-    margin-bottom: 1.5rem;
-}
 
 .project-item .project-item-content {
     position: relative;
     overflow: hidden;
-    margin-bottom: 0.5rem;
 }
 
 .project-item .project-item-content img {

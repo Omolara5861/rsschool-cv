@@ -49,8 +49,8 @@
 
     <div class="content">
         <!-- CV Header -->
-        <header>
-            <nav class="sticky" #navbar>
+        <header class="container" id="header">
+            <nav class="sticky" id="navbar">
                 <ul class="navbar-links">
                     <li><a class="nav-item" href="#about">About Me</a></li>
                     <li><a class="nav-item" href="#skills">Skills</a></li>
@@ -245,7 +245,8 @@
                         this.todosService.getTodos()
                             .subscribe((res: Todo[]) =&gt; {
                                 this.todoList = res;
-                                this.btnState$.next(BtnState.loadedAndDelaying)},
+                                this.btnState$.next(Bt
+                                nState.loadedAndDelaying)},
                             (err) =&gt; {
                                 this.btnState$.next(BtnState.error);
                             });
@@ -319,9 +320,9 @@
             </div>
         </section>
         <!-- Language Section Ends Here -->
-    </main>
+        </main>
             <!-- CV Footer -->
-    <footer class="container-fluid" id="footer" style="padding: 3rem 0 0;">
+        <footer class="container-fluid" id="footer" style="padding: 3rem 0 0;">
         <div class="container footer-div">
             <div class="socials">
                 <div class="contacts">
@@ -342,7 +343,7 @@
             </div>
             <p class="copyright">All Rights Reserved &copy; Created by <a href="https://omolara5861.github.io" target="_blank">Laradev</a></p>
         </div>
-    </footer>
+        </footer>
 
 </div>
 </div>
