@@ -136,7 +136,8 @@ a:hover {
     max-width: 100%;
 }
 
-.container, .container-fluid {
+.container,
+.container-fluid {
     width: 100%;
     padding: 3rem 0.9rem;
     margin: 0 auto;
@@ -205,13 +206,7 @@ a:hover {
     margin-bottom: 1.5rem;
     vertical-align: middle;
     border-style: none;
-    /* max-width: 100%; */
-    /* height: auto; */
-    /* margin-bottom: 1.5rem;
-    vertical-align: middle;
-    border-style: none;
-    border-radius: 50%; */
-} 
+}
 
 .wrapper .sidebar h2 {
     margin-top: 0.5rem;
@@ -275,6 +270,32 @@ a:hover {
 .wrapper .sidebar,
 .wrapper .content {
     transition: margin 200ms ease-out;
+}
+
+/* styles For Navbar */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#navbar {
+    background-color: #141414;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar .nav-item {
+    display: inline-block;
+    color: #fff;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar .nav-item:hover {
+    color: #78CC6D;
 }
 
 /* Styles For About Me Section*/
@@ -481,7 +502,7 @@ a:hover {
 }
 
 /* Styles CV Footer */
-footer .footer-div{
+footer .footer-div {
     background-color: #141414;
     color: #f2f2f2;
     text-align: center;
@@ -669,7 +690,7 @@ footer .container .copyright {
 
 @media (min-width: 576px) {
 
-    .container{
+    .container {
         max-width: 540px;
     }
 
@@ -695,7 +716,7 @@ footer .container .copyright {
 
 @media (min-width: 1200px) {
 
-    .container{
+    .container {
         max-width: 1140px;
     }
 }
