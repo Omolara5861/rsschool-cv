@@ -78,7 +78,7 @@
                             <h5>Email:</h5> <a href="mailto:debbiegterra@gmail.com" target="_blank" title="mail-address">debbiegterra@gmail.com</a>
                         </div>
                         <div class="col-sm-6">
-                            <h5>Address:</h5> Isheri, Lagos, Nigeria
+                            <h5>Address:</h5> Lagos, Nigeria
                         </div>
                         <div class="col-sm-6">
                             <h5>Job Status:</h5> Available
@@ -233,7 +233,7 @@ loadTodos() {
     this.todosService.getTodos()
         .subscribe((res: Todo[]) =&gt; {
             this.todoList = res;
-            this.btnState$.next(Bt
+            this.btnState$.next(
             BtnState.loadedAndDelaying)},
         (err) =&gt; {
             this.btnState$.next(BtnState.error);
