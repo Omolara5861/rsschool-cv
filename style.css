@@ -272,44 +272,6 @@ a:hover {
     transition: margin 200ms ease-out;
 }
 
-/* styles For Navbar */
-
-
-#header {
-    background-color: #141414;
-    width: 100%;
-    padding: 25px;
-    position: sticky;
-    overflow: hidden;
-    top: 0;
-    z-index: 99;
-}
-
-
-#header .navbar-links {
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-#header .navbar-links li{
-        margin-right: 10px;
-    }
-    
-    #navbar .nav-item {
-        color: #78CC6D;
-        display: inline-block;
-        padding: 14px;
-        text-decoration: none;
-        padding: 10px;
-    }
-    
-    #navbar .nav-item:hover {
-    color: #F2F2F2;
-}
-
 /* Styles For About Me Section*/
 .content .about-me .about-content {
     padding: 0 1rem;
@@ -750,3 +712,4 @@ footer .container .copyright {
         max-width: 1140px;
     }
 }
+
