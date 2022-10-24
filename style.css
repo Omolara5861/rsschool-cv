@@ -189,6 +189,18 @@ a:hover {
     height: 100%;
     text-align: center;
 }
+.wrapper .sidebar .sidebar-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: right;
+    display: none;
+}
+
+.wrapper .sidebar .sidebar-icon i {
+    color: #78CC6D;
+}
 
 .wrapper .sidebar h1 {
     font-size: 2.5rem;
@@ -242,21 +254,6 @@ a:hover {
 
 .wrapper .sidebar .cta .border-right {
     border-right: 1px solid #dee2e6 !important;
-}
-
-.wrapper .sidebar .sidebar-icon {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    text-align: right;
-    margin-right: -18px;
-    visibility: hidden;
-    height: 0 !important;
-}
-
-.wrapper .sidebar .sidebar-icon i {
-    color: #78CC6D;
 }
 
 /** Main Section Style **/
@@ -609,10 +606,6 @@ footer .container .copyright {
         display: none;
     }
 
-    .wrapper .sidebar-icon {
-        display: flex;
-    }
-
     .wrapper .content {
         position: relative;
         width: calc(100% - 50px);
@@ -645,13 +638,17 @@ footer .container .copyright {
         z-index: 99;
     }
 
-    .wrapper .sidebar-text,
+    .wrapper .sidebar .sidebar-icon {
+        display: flex;
+    }
+
+    .wrapper .sidebar .sidebar-text,
     .wrapper .sidebar:hover .sidebar-icon {
         visibility: hidden;
         height: 0 !important;
     }
 
-    .wrapper .sidebar-icon,
+    .wrapper .sidebar .sidebar-icon,
     .wrapper .sidebar:hover .sidebar-text {
         visibility: visible;
         height: 100% !important;
