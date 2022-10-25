@@ -47,3 +47,4 @@ A major challenge I faced in this project was implementing the sidebar toggle fu
 [CV#1. Markdown & Git](https://omolara5861.github.io/rsschool-cv/cv)
 
 [CV#2. HTML CSS & GIT](https://omolara5861.github.io/rsschool-cv/)
+
