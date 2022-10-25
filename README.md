@@ -6,6 +6,8 @@
 
 -   Sidebar
 -   Toggle Sidebar Effect on Tablet Screens
+-   Smooth scroll effect when portfolio is clicked
+-   
 -   Details About Me
 -   Customized Highlighted Code Sample
 -   Portfolio Section
