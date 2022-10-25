@@ -38,28 +38,16 @@
 
                 </div>
                 <div class="cta">
-                    <a href="" download="omolara's CV" class="btn btn-block border-right">Download CV</a>
+                    <a href="assets/omolara's_cv.pdf" download="lara's CV" class="btn btn-block border-right">Download CV</a>
                     <a href="#projects" class="btn btn-block">Portfolio</a>
                 </div>
-                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
-                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
-                </div>
+        </div>
+        <div class="sidebar-icon">
+            <i class="fas fa-2x fa-angle-double-right text-primary"></i>
         </div>
     </aside>
 
     <div class="content">
-        <!-- CV Header -->
-        <header class="container" id="header">
-            <nav class="sticky" id="navbar">
-                <ul class="navbar-links">
-                    <li><a class="nav-item" href="#about">About Me</a></li>
-                    <li><a class="nav-item" href="#skills">Skills</a></li>
-                    <li><a class="nav-item" href="#experience">Experience</a></li>
-                    <li><a class="nav-item" href="education">Education</a></li>
-                    <li><a class="nav-item" href="#projects">Portfolio</a></li>
-                </ul>
-            </nav>
-        </header>
         <!-- CV Main Content -->
         <main>
         <!-- About Me Starts Here-->
@@ -90,7 +78,7 @@
                             <h5>Email:</h5> <a href="mailto:debbiegterra@gmail.com" target="_blank" title="mail-address">debbiegterra@gmail.com</a>
                         </div>
                         <div class="col-sm-6">
-                            <h5>Address:</h5> Isheri, Lagos, Nigeria
+                            <h5>Address:</h5> Lagos, Nigeria
                         </div>
                         <div class="col-sm-6">
                             <h5>Job Status:</h5> Available
@@ -100,24 +88,6 @@
             </div>
         </section>
         <!-- About Me Ends Here-->
-
-                <!-- Contact Section Starts Here  -->
-                <section class="container contact" id="contact">
-                    <div class="contact-content">
-                        <div class="col-12">
-                            <h2 class="title">Contact Details</h2>
-                            <h4>I'd be happy to hear from you, I can be reached via: </h4>
-                        </div>
-                        <div class="col-sm-6">
-                            <ul>
-                                <li>LinkendIn: <a href="https://linkedin.com/in/omolara-ad" target="blank">Omolara_ad</a></li>
-                                <li>Twitter: <a href="https://twitter.com/@kesty_o" target="blank">Kesty_o</a></li>
-                                <li>Email: <a href="mailto:debbiegterra@gmail.com" target="_blank" title="mail-address">debbiegterra@gmail.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <!-- Contact Section Ends Here -->
 
         <!-- Skills Section Starts Here  -->
         <section class="container skills" id="skills">
@@ -263,7 +233,7 @@ loadTodos() {
     this.todosService.getTodos()
         .subscribe((res: Todo[]) =&gt; {
             this.todoList = res;
-            this.btnState$.next(Bt
+            this.btnState$.next(
             BtnState.loadedAndDelaying)},
         (err) =&gt; {
             this.btnState$.next(BtnState.error);
