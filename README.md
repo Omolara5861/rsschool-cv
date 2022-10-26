@@ -1,6 +1,6 @@
 # rsschool-cv
 
->**My online resume website, it represents the offline version of my CV. This is one of the @rolling-scopes-school `[Javascript/Front-end Mentoring Program](https://github.com/rolling-scopes-school/js-fe-course-en)` personal tasks / projects**
+>**My online resume website, it represents the offline version of my CV. This is one of the @rolling-scopes-school *[Javascript/Front-end Mentoring Program](https://github.com/rolling-scopes-school/js-fe-course-en)* personal tasks / projects**
 
 ## Features
 
