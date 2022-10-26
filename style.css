@@ -592,7 +592,7 @@ footer .container .copyright {
         height: 100%;
         margin-left: -300px;
         float: left;
-        overflow: auto;
+        /* overflow: auto; */
         scrollbar-width: thin;
         scrollbar-color: gray;
         z-index: 9;
